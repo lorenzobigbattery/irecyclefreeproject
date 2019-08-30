@@ -113,24 +113,17 @@ function PrimaryPage() {
     };
     
     const chooseCondition = (e) => {
+        const condition = e.target.alt || e.target.textContent
         e.preventDefault();
         const newItem = {
             category: itemNavigation.category,
             brand: itemNavigation.brand,
             model: itemNavigation.model,
-            condition: e.target.alt.toString() || e.target.textContent.toString(),
-            key: (itemNavigation.brand + itemNavigation.model + e.target.textContent).toString(),
+            condition: condition,
+            key: (itemNavigation.brand + itemNavigation.model + condition).toString(),
             quantity: 1
         }
-        console.log(`line 125 from chooseCondition fn`, newItem)
         setListOfRecyclables([...listOfRecyclables, newItem])
-        setItemNavigation({
-            ...itemNavigation,
-            category: "",
-            brand: "",
-            model: "",
-            condition: ""
-        });
     };
     
     const startOver = () => {
@@ -141,7 +134,6 @@ function PrimaryPage() {
             model: "",
             condition: ""
         });
-        console.log(`line 143 from startOver fn`, itemNavigation)
     };
 
     const decreaseQuantity = (e, brand, model, condition, quantity) => {
@@ -168,6 +160,7 @@ function PrimaryPage() {
     const increaseQuantity = (e, brand, model, condition, quantity) => {
         e.preventDefault();
         const keyOfItem = (brand + model + condition).toString();
+        console.log(`line 161 from increaseQuantity fn`, keyOfItem)
         if (quantity < 20) {
             let updatedList = [];
             for (let i = 0; i < listOfRecyclables.length; i++) {
@@ -262,9 +255,9 @@ function PrimaryPage() {
                             <ol>
                                 {listOfRecyclables[0] ? (listOfRecyclables.map((item) => {
                                     const { brand, model, condition, quantity } = item
-                                    return (<li key={brand + model + condition}>
+                                    return (<li className='eachconfirmedlistitem' key={brand + model + condition}>
                                         {brand} {model} ({condition}) qty:
-                      <span className='changequantity' onClick={(e) => { decreaseQuantity(e, item.brand, item.model, item.condition, item.quantity) }}>-</span>
+                                        <span className='changequantity' onClick={(e) => { decreaseQuantity(e, item.brand, item.model, item.condition, item.quantity) }}>-</span>
                                         {quantity}
                                         <span className='changequantity' onClick={(e) => { increaseQuantity(e, item.brand, item.model, item.condition, item.quantity) }}>+</span>
                                     </li>)

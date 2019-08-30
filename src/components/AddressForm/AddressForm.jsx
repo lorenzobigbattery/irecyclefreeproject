@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './AddressForm.css'
 import AddressSuggest from './../AddressSuggest/AddressSuggest';
 import AddressInput from './../AddressInput/AddressInput';
 import axios from 'axios';
@@ -204,7 +205,7 @@ class AddressForm extends Component {
     render() {
         let result = this.alert();
         return (
-            <div className="container">
+            <div className="addressformcontainer">
 
                 <input name='firstName' onChange={(e) => { this.handleUserInfoChange(e) }} placeholder='First Name' />
                 <input name='lastName' onChange={(e) => { this.handleUserInfoChange(e) }} placeholder='Last Name' />
