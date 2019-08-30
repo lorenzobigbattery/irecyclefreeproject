@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/irecyclefreeproject/static/css/main.66b526af.chunk.css",
-    "main.js": "/irecyclefreeproject/static/js/main.4e3a91ca.chunk.js",
-    "main.js.map": "/irecyclefreeproject/static/js/main.4e3a91ca.chunk.js.map",
+    "main.css": "/irecyclefreeproject/static/css/main.52844b3b.chunk.css",
+    "main.js": "/irecyclefreeproject/static/js/main.f7a2a8dc.chunk.js",
+    "main.js.map": "/irecyclefreeproject/static/js/main.f7a2a8dc.chunk.js.map",
     "runtime~main.js": "/irecyclefreeproject/static/js/runtime~main.8356bcc2.js",
     "runtime~main.js.map": "/irecyclefreeproject/static/js/runtime~main.8356bcc2.js.map",
-    "static/js/2.1d19e8f2.chunk.js": "/irecyclefreeproject/static/js/2.1d19e8f2.chunk.js",
-    "static/js/2.1d19e8f2.chunk.js.map": "/irecyclefreeproject/static/js/2.1d19e8f2.chunk.js.map",
+    "static/js/2.c1b0ae8b.chunk.js": "/irecyclefreeproject/static/js/2.c1b0ae8b.chunk.js",
+    "static/js/2.c1b0ae8b.chunk.js.map": "/irecyclefreeproject/static/js/2.c1b0ae8b.chunk.js.map",
     "index.html": "/irecyclefreeproject/index.html",
-    "precache-manifest.00e834e1fb18acf365f68eaaa3d3280e.js": "/irecyclefreeproject/precache-manifest.00e834e1fb18acf365f68eaaa3d3280e.js",
+    "precache-manifest.88409668710c347008234768ab6b1b0c.js": "/irecyclefreeproject/precache-manifest.88409668710c347008234768ab6b1b0c.js",
     "service-worker.js": "/irecyclefreeproject/service-worker.js",
-    "static/css/main.66b526af.chunk.css.map": "/irecyclefreeproject/static/css/main.66b526af.chunk.css.map",
+    "static/css/main.52844b3b.chunk.css.map": "/irecyclefreeproject/static/css/main.52844b3b.chunk.css.map",
     "static/media/acer.svg": "/irecyclefreeproject/static/media/acer.df6ec790.svg",
     "static/media/amazon.svg": "/irecyclefreeproject/static/media/amazon.cf55cddb.svg",
     "static/media/apple.svg": "/irecyclefreeproject/static/media/apple.1246d495.svg",
@@ -19,9 +19,11 @@
     "static/media/august.svg": "/irecyclefreeproject/static/media/august.df0b721a.svg",
     "static/media/benq.svg": "/irecyclefreeproject/static/media/benq.06c2207b.svg",
     "static/media/blackberry.svg": "/irecyclefreeproject/static/media/blackberry.27bb8d1c.svg",
+    "static/media/brokensmartphone.svg": "/irecyclefreeproject/static/media/brokensmartphone.6b0a609c.svg",
     "static/media/canon.svg": "/irecyclefreeproject/static/media/canon.d7d4f3f4.svg",
     "static/media/console.png": "/irecyclefreeproject/static/media/console.9ecd96a0.png",
     "static/media/dell.svg": "/irecyclefreeproject/static/media/dell.2acb4039.svg",
+    "static/media/functionalsmartphone.svg": "/irecyclefreeproject/static/media/functionalsmartphone.1c1b1b04.svg",
     "static/media/google.svg": "/irecyclefreeproject/static/media/google.e99543bb.svg",
     "static/media/homesystem.png": "/irecyclefreeproject/static/media/homesystem.71aaa23c.png",
     "static/media/hp.svg": "/irecyclefreeproject/static/media/hp.076fcb97.svg",
@@ -41,6 +43,7 @@
     "static/media/linksys.svg": "/irecyclefreeproject/static/media/linksys.eac58614.svg",
     "static/media/BusinessRecyclerPage.css": "/irecyclefreeproject/static/media/login-register-background-2.4c64e0f7.jpg",
     "static/media/microsoft.svg": "/irecyclefreeproject/static/media/microsoft.5bd0e45f.svg",
+    "static/media/missingpieces.svg": "/irecyclefreeproject/static/media/missingpieces.c82248fa.svg",
     "static/media/motorola.svg": "/irecyclefreeproject/static/media/motorola.199693d3.svg",
     "static/media/musicplayer.png": "/irecyclefreeproject/static/media/musicplayer.17a6a8ef.png",
     "static/media/nest.svg": "/irecyclefreeproject/static/media/nest.c94f50c0.svg",
@@ -60,6 +63,7 @@
     "static/media/sony.svg": "/irecyclefreeproject/static/media/sony.3acdffa9.svg",
     "static/media/toshiba.svg": "/irecyclefreeproject/static/media/toshiba.f41a1874.svg",
     "static/media/tplink.svg": "/irecyclefreeproject/static/media/tplink.2fd43499.svg",
-    "static/media/videocamera.png": "/irecyclefreeproject/static/media/videocamera.2702b1cc.png"
+    "static/media/videocamera.png": "/irecyclefreeproject/static/media/videocamera.2702b1cc.png",
+    "static/media/workingsmartphone.svg": "/irecyclefreeproject/static/media/workingsmartphone.43317e8d.svg"
   }
 }

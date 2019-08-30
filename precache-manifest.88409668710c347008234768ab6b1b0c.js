@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1fba105a70302dd3fb21569b1aba1259",
+    "revision": "5e203ea5d978c9353a3a96e44e93ef57",
     "url": "/irecyclefreeproject/index.html"
   },
   {
-    "revision": "35cf2f033a37a4c8efdc",
-    "url": "/irecyclefreeproject/static/css/main.66b526af.chunk.css"
+    "revision": "e3d1f23d3b4aeccfb8ed",
+    "url": "/irecyclefreeproject/static/css/main.52844b3b.chunk.css"
   },
   {
-    "revision": "a35362bd849b91831476",
-    "url": "/irecyclefreeproject/static/js/2.1d19e8f2.chunk.js"
+    "revision": "8aaee62ed18404bba417",
+    "url": "/irecyclefreeproject/static/js/2.c1b0ae8b.chunk.js"
   },
   {
-    "revision": "35cf2f033a37a4c8efdc",
-    "url": "/irecyclefreeproject/static/js/main.4e3a91ca.chunk.js"
+    "revision": "e3d1f23d3b4aeccfb8ed",
+    "url": "/irecyclefreeproject/static/js/main.f7a2a8dc.chunk.js"
   },
   {
     "revision": "f8c57a5382a58500d791",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/irecyclefreeproject/static/media/blackberry.27bb8d1c.svg"
   },
   {
+    "revision": "6b0a609cc64347a3136c69ab513898bb",
+    "url": "/irecyclefreeproject/static/media/brokensmartphone.6b0a609c.svg"
+  },
+  {
     "revision": "d7d4f3f43f9fa14a61ade4e9638c2ca5",
     "url": "/irecyclefreeproject/static/media/canon.d7d4f3f4.svg"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2acb4039b604e99b21fe93a01a98c4b1",
     "url": "/irecyclefreeproject/static/media/dell.2acb4039.svg"
+  },
+  {
+    "revision": "1c1b1b04b1081a866fd8a048571d7c6c",
+    "url": "/irecyclefreeproject/static/media/functionalsmartphone.1c1b1b04.svg"
   },
   {
     "revision": "e99543bb86794e15928d03e9b41bb3c8",
@@ -138,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5bd0e45fccaf21000a09eb91fb75bf04",
     "url": "/irecyclefreeproject/static/media/microsoft.5bd0e45f.svg"
+  },
+  {
+    "revision": "c82248fad6d77f4523018a571939579c",
+    "url": "/irecyclefreeproject/static/media/missingpieces.c82248fa.svg"
   },
   {
     "revision": "199693d3ee49341f0ddc4522e6203b52",
@@ -218,5 +230,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2702b1ccbed1cf10bb98be4fcc40b295",
     "url": "/irecyclefreeproject/static/media/videocamera.2702b1cc.png"
+  },
+  {
+    "revision": "43317e8d1c85c741394d295cfb5adec4",
+    "url": "/irecyclefreeproject/static/media/workingsmartphone.43317e8d.svg"
   }
 ]);
