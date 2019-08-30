@@ -1,0 +1,30 @@
+.choosemodel-display {
+    display: block;
+}
+
+.choosemodel-hide {
+    display: none;
+}
+
+.png-model-icon {
+    height: 150px;
+}
+
+.png-model-icon:hover {
+    cursor: pointer;
+}
+
+.choosemodelcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed yellow;
+    width: 100%;
+}
+
+.choosemodelcontainer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,324 @@
+.App {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33vw;
+    border: 2px black dashed;
+    padding: 30px 0px;
+  }
+  
+  .headercolumn1 {
+    text-decoration: underline;
+  }
+  
+  .maincontainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px purple solid;
+    height: 1200px;
+    background-color: white;
+  }
+  
+  .maincolumn1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+    border: 2px black dotted;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .maincolumn2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 1rem;
+    width: 48vw;
+    border: 2px black dotted;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+  
+  }
+  
+  .maincolumn3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    border: 2px black dotted;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .loginregistercontainer {
+    height: 600px;
+    width: 85%;
+    border: 2px solid rebeccapurple;
+    margin: 20px;
+  }
+  
+  .businessaccountcontainer {
+    border: 2px solid rebeccapurple;
+    width: 85%;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .businessaccountbutton {
+    cursor: pointer;
+    color: blueviolet;
+  }
+  
+  .myButton {
+    -moz-box-shadow: inset 0px 1px 0px 0px #cf866c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #cf866c;
+    box-shadow: inset 0px 1px 0px 0px #cf866c;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.05, #d0451b),
+      color-stop(1, #bc3315)
+    );
+    background: -moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+    background-color: #d0451b;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #942911;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+  }
+  .myButton:hover {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.05, #bc3315),
+      color-stop(1, #d0451b)
+    );
+    background: -moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+    background-color: #bc3315;
+  }
+  .myButton:active {
+    position: relative;
+    top: 1px;
+  }
+
+
+  
+  .pickallitemscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    border: 3px dashed greenyellow;
+    position: relative;
+    overflow: hidden;
+  
+  }
+  
+
+  
+  .confirmitemscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    border: 2px solid blue;
+  }
+  
+/* 
+  .panel-wrap-closed {
+    border: 2px dotted violet;
+    position: absolute;
+    top: -50%;
+    bottom: 100%;
+    left: 0;
+    width: 14rem;
+    transform: translateY(0%);
+    transition: 0.2s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  }
+  
+  .panel-wrap-open {
+    border: 2px dotted violet;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 0;
+    width: 14rem;
+    transform: translateY(100%);
+    transition: 0.45s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  }
+  
+  .panel {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    color: #eee;
+    overflow: hidden;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .second-panel-wrap-closed {
+    border: 2px dotted violet;
+    position: absolute;
+    top: -50%;
+    bottom: 100%;
+    left: 20%;
+    width: 14rem;
+    transform: translateY(0%);
+    transition: 0.2s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  }
+  
+  .second-panel-wrap-open {
+    border: 2px dotted violet;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 20%;
+    width: 14rem;
+    transform: translateY(100%);
+    transition: 0.45s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  }
+  
+  .third-panel-wrap-closed {
+    border: 2px dotted violet;
+    position: absolute;
+    top: -50%;
+    bottom: 100%;
+    left: 40%;
+    width: 14rem;
+    transform: translateY(0%);
+    transition: 0.2s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  }
+  
+  .third-panel-wrap-open {
+    border: 2px dotted violet;
+    position: absolute;
+    top: 0%;
+    bottom: 50%;
+    left: 40%;
+    width: 14rem;
+    transform: translateY(100%);
+    transition: 0.45s ease-out;
+    margin: 8px;
+    margin-left: 15px;
+  } */
+  
+  
+  .printlabelcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: darkred dashed 2px;
+    height: 400px;
+    width: 80%;
+    margin: 20px 0px;
+  }
+  
+  .printlabelcontainer h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px black solid;
+  }
+  
+  .weight input {
+    width: 30px;
+  }
+  
+  .dimensions input {
+    width: 20px;
+  }
+  
+  .packboxcontainer {
+    border: darkred dashed 2px;
+    height: 400px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .packboxcontainer h1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px black solid;
+  }
+  
+  .eachpackagingstep {
+    height: 60px;
+    width: 100%;
+    border: 2px blueviolet dotted;
+  }
+  
+  .donecontainer {
+    border: darkred dashed 2px;
+    height: 150px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .changequantity:hover {
+    cursor: pointer;
+  }
+  

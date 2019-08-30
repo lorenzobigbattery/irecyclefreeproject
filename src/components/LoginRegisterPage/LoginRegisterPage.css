@@ -1,0 +1,22 @@
+.loginregisterpage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../../images/login-register-background-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginregisterpage form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    height: 280px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 20px 0px rgba(0,0,0,0.7);
+}

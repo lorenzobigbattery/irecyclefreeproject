@@ -1,0 +1,24 @@
+.thirdoptionsmenucontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdoptionsmenucontainer span {
+    display: inline-block;
+}
+
+.functionalasterisk {
+    margin-left: 4px;
+}
+
+.functionalasteriskcard {
+    font-size: 12px;
+  }
+  .functionalasteriskcard > .functionalasteriskheader {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    text-align: center;
+  }
