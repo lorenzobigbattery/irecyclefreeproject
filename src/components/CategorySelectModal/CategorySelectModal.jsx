@@ -219,14 +219,11 @@ function CategorySelectModal(props) {
                 </div>
 
                 <ChooseModel chooseCategory={props.chooseCategory} chooseModel={props.chooseModel} chooseCondition={props.chooseCondition} startOver={props.startOver} itemNavigation={props.itemNavigation} category={props.itemNavigation.category} brand={props.itemNavigation.brand} /> 
-                <ChooseCondition chooseCategory={props.chooseCategory} chooseModel={props.chooseModel} chooseCondition={props.chooseCondition} startOver={props.startOver} itemNavigation={props.itemNavigation} category={props.itemNavigation.category} />
+                <ChooseCondition onClose={close} chooseCategory={props.chooseCategory} chooseModel={props.chooseModel} chooseCondition={props.chooseCondition} startOver={props.startOver} itemNavigation={props.itemNavigation} category={props.itemNavigation.category} />
 
                 
                 
 
-                <div className="actions">
-                    <button onClick={() => {  close(); }} > Close </button>
-                </div>
             </div>  )}
         </Popup>
     )

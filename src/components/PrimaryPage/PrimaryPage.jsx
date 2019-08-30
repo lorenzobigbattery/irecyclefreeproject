@@ -118,10 +118,11 @@ function PrimaryPage() {
             category: itemNavigation.category,
             brand: itemNavigation.brand,
             model: itemNavigation.model,
-            condition: e.target.textContent.toString(),
+            condition: e.target.alt.toString() || e.target.textContent.toString(),
             key: (itemNavigation.brand + itemNavigation.model + e.target.textContent).toString(),
             quantity: 1
         }
+        console.log(`line 125 from chooseCondition fn`, newItem)
         setListOfRecyclables([...listOfRecyclables, newItem])
         setItemNavigation({
             ...itemNavigation,
@@ -140,7 +141,7 @@ function PrimaryPage() {
             model: "",
             condition: ""
         });
-        
+        console.log(`line 143 from startOver fn`, itemNavigation)
     };
 
     const decreaseQuantity = (e, brand, model, condition, quantity) => {

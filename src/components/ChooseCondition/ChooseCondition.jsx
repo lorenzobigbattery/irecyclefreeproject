@@ -3,22 +3,26 @@ import './ChooseCondition.css'
 
 function ChooseCondition(props) {
 
+    const closeModalFromConditionPage = () => {
+        props.onClose();
+    }
+
     const renderSwitchCondition = (category) => {
         switch(category){
             case 'smartphones': 
                 return (<div className='chooseconditioncontainer slide'>
                     <h1>Choose Condition:</h1>
                     <section>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/workingsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Working' src={require('./../../images/conditions/workingsmartphone.svg')} />
                             <p>Working</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/functionalsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Functional' src={require('./../../images/conditions/functionalsmartphone.svg')} />
                             <p>Functional</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/brokensmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Broken' src={require('./../../images/conditions/brokensmartphone.svg')} />
                             <p>Broken</p>
                         </div>
                     </section>
@@ -28,20 +32,20 @@ function ChooseCondition(props) {
                 return (<div>
                     <h1>Choose Condition:</h1>
                     <section>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/workingsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon'alt='Working' src={require('./../../images/conditions/workingsmartphone.svg')} />
                             <p>Working</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/functionalsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Functional' src={require('./../../images/conditions/functionalsmartphone.svg')} />
                             <p>Functional</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/brokensmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Broken' src={require('./../../images/conditions/brokensmartphone.svg')} />
                             <p>Broken</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/missingpieces.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Missing Pieces' src={require('./../../images/conditions/missingpieces.svg')} />
                             <p>Missing Pieces</p>
                         </div>
                     </section>
@@ -50,16 +54,16 @@ function ChooseCondition(props) {
                 return (<div className='chooseconditioncontainer slide'>
                     <h1>Choose Condition:</h1>
                     <section>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/workingsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Working' src={require('./../../images/conditions/workingsmartphone.svg')} />
                             <p>Working</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/functionalsmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Functional' src={require('./../../images/conditions/functionalsmartphone.svg')} />
                             <p>Functional</p>
                         </div>
-                        <div className='eachconditioncontainer'>
-                            <img className='svg-conditions-icon' src={require('./../../images/conditions/brokensmartphone.svg')} />
+                        <div onClick={ (e)=>{ props.chooseCondition(e); closeModalFromConditionPage(); } } className='eachconditioncontainer'>
+                            <img className='svg-conditions-icon' alt='Broken' src={require('./../../images/conditions/brokensmartphone.svg')} />
                             <p>Broken</p>
                         </div>
                     </section>
