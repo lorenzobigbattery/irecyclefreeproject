@@ -10,7 +10,14 @@
     height: 150px;
 }
 
-.png-model-icon:hover {
+.eachmodelcontainer {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
+
+.eachmodelcontainer:hover {
     cursor: pointer;
 }
 
@@ -19,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px dashed yellow;
     width: 100%;
 }
 
@@ -27,4 +33,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.otheroptionmodel{
+    height: 185px;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+.otheroptionmodel:hover {
+    cursor: pointer;
 }

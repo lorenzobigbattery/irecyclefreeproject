@@ -1,8 +1,39 @@
 .choosecondition-display {
     display: block;
-  }
-  
-  .choosecondition-hide {
+    width: 100%;
+}
+
+.choosecondition-hide {
     display: none;
-  }
+    width: 100%;
+}
+
+.chooseconditioncontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooseconditioncontainer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.eachconditioncontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eachconditioncontainer:hover {
+    cursor: pointer;
+}
+
+.svg-conditions-icon {
+    height: 150px;
+}
   
